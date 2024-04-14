@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="src/CSS/style.css">
+    <link rel="script" href="src/JavasScript/Script.js">
+</head>
+<body>
+    <header class="navbar">
+
+        <div class="nomeSite">
+
+            <h1>Nome</h1>
+
+        </div>
+
+        <div class="links">
+
+            <ul>
+                <li><a href="index.html" class="Nav_item">Home</a></li>
+                <li><a href="cadastro.html" class="Nav_item">Cadastro</a></li>
+                
+            </ul>
+            
+        </div>
+
+        <div>
+
+            <h1>Sobre</h1>
+
+        </div>
+
+    </header>
+
+    <div class="divForm">
+
+        <form action="" class="form" onsubmit="cadastrarFuncionario()">
+            <fieldset>
+            <h2>Cadastro de funcionario</h2>
+            <br>
+            
+            <div class="itemForm">
+
+            <label for="">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            
+            </div>
+
+            <div class="itemForm">
+
+            <label for="">CPF:</label>
+            <input type="number" name="CPF" id="CPF">
+
+            </div>
+            
+            <div class="itemForm">
+
+            <label for="">E-mail:</label>
+            <input type="email" name="email" id="email">
+            </div>
+
+            <div class="formButton">
+                <button type="submit" onclick="cadastrarFuncionario()">Enviar</button>
+            </div>
+            </fieldset>
+            
+        </form>
+
+    </div>
+
+    <p id="paragrafo"></p>
+
+</body>
+
+</html>

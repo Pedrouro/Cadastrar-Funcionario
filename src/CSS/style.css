@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: rgb(24, 22, 22);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+}
+
+header h1{
+    color: #fff;
+}
+.links ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 15px;
+}
+
+.Nav_item{
+    display: flex;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: black;
+}
+
+.conteudoHome{
+    margin: 0 auto;
+    width: 750px;
+}
+.tituloHome{
+    text-align: center;
+    margin: 75px;
+}
+
+.textoHome{
+    text-align: justify;
+}
+
+.divForm{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.formButton{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.itemForm{
+    margin: 5px;
+
+}
