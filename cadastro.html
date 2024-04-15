@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="src/CSS/style.css">
-    <link rel="script" href="src/JavasScript/Script.js">
 </head>
 <body>
     <header class="navbar">
@@ -36,7 +35,7 @@
 
     <div class="divForm">
 
-        <form action="" class="form" onsubmit="cadastrarFuncionario()">
+        <form action="" class="form">
             <fieldset>
             <h2>Cadastro de funcionario</h2>
             <br>
@@ -51,27 +50,34 @@
             <div class="itemForm">
 
             <label for="">CPF:</label>
-            <input type="number" name="CPF" id="CPF">
+            <input type="text" name="CPF" id="CPF">
 
             </div>
             
             <div class="itemForm">
 
             <label for="">E-mail:</label>
-            <input type="email" name="email" id="email">
+            <input type="text" name="email" id="email">
             </div>
 
             <div class="formButton">
-                <button type="submit" onclick="cadastrarFuncionario()">Enviar</button>
+                <button type="button" onclick="cadastrarFuncionario()">Enviar</button>
             </div>
             </fieldset>
             
         </form>
 
     </div>
+    <br>
+    <div class="resultado" id="nomeFuncionario">
+    </div>
+    <div class="resultado" id="CPFFuncionario">
+    </div>
+    <div class="resultado" id="emailFuncionario">
+    
+    
 
-    <p id="paragrafo"></p>
-
+    <script src="src/JavasScript/Script.js"></script>
 </body>
 
 </html>
